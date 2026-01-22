@@ -1,20 +1,25 @@
 :root{
-  --bg:#0f1115;
-  --card:#151922;
-  --text:#eef2ff;
-  --muted:#b7c0d8;
-  --accent:#d4b06a;
-  --accent2:#8fb7ff;
+  /* Theme tokens (default = theatre) */
+  --bg:#0b0b0e;
+  --card:#141017;
+  --text:#f2f4ff;
+  --muted:#b9bfd6;
+  --accent:#e63946;      /* theatre red */
+  --accent2:#ff8fab;     /* warm highlight */
   --border:rgba(255,255,255,.12);
-  --shadow: 0 10px 30px rgba(0,0,0,.35);
+  --shadow: 0 10px 30px rgba(0,0,0,.40);
   --radius:16px;
   --max:1100px;
   --font: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+
+  /* RGB helpers for gradients */
+  --accent-rgb: 230 57 70;
+  --accent2-rgb: 255 143 171;
 }
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
-body{font-family:var(--font);background:radial-gradient(1200px 800px at 20% -10%, rgba(212,176,106,.18), transparent 55%),
-radial-gradient(900px 700px at 90% 10%, rgba(143,183,255,.14), transparent 55%),
+body{font-family:var(--font);background:radial-gradient(1200px 800px at 20% -10%, rgba(var(--accent-rgb)/.18), transparent 55%),
+radial-gradient(900px 700px at 90% 10%, rgba(var(--accent2-rgb)/.14), transparent 55%),
 var(--bg); color:var(--text); line-height:1.5}
 a{color:inherit}
 .container{max-width:var(--max); margin:0 auto; padding: 0 18px}

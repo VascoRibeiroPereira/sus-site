@@ -53,3 +53,20 @@ Opções comuns:
 Garante que tens direitos sobre imagens e documentos antes de republicar.
 
 Gerado em: 2026-01-22 19:09 UTC
+
+## Temas (design tokens)
+
+Este site usa **CSS variables (tokens)** para suportar temas **offline**.
+
+- Tema atual: definido em `<html data-theme="...">` (default: `theatre`)
+- Temas disponíveis: `theatre`, `modern`, `classic`
+
+### Como experimentar
+- Abrir com o seletor de temas: adicionar `?dev=1` ao URL (ex.: `/agenda/?dev=1`)
+- Forçar tema via URL: `?theme=modern` (ou `theatre`, `classic`)
+- Atalho: `Ctrl + Shift + T` (cicla entre temas)
+- Preferência fica guardada em `localStorage`
+
+Ficheiros:
+- `assets/css/style.css` — base + tokens default
+- `assets/css/themes.css` — overrides por tema

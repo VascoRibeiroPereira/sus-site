@@ -1,0 +1,46 @@
+/* Theme overrides (design tokens)
+   Set on <html data-theme="...">. Default tokens live in style.css (:root).
+*/
+:root[data-theme="theatre"]{
+  /* Theatre is the default; kept for explicitness */
+}
+
+:root[data-theme="classic"]{
+  --bg:#0f1115;
+  --card:#151922;
+  --text:#eef2ff;
+  --muted:#b7c0d8;
+  --accent:#d4b06a;
+  --accent2:#8fb7ff;
+  --border:rgba(255,255,255,.12);
+  --shadow: 0 10px 30px rgba(0,0,0,.35);
+
+  --accent-rgb: 212 176 106;
+  --accent2-rgb: 143 183 255;
+}
+
+/* A lighter, contemporary look while keeping a theatre-red accent */
+:root[data-theme="modern"]{
+  --bg:#ffffff;
+  --card:#faf7f7;
+  --text:#121214;
+  --muted:#4b4f5c;
+  --accent:#e63946;
+  --accent2:#ff8fab;
+  --border:rgba(18,18,20,.14);
+  --shadow: 0 10px 30px rgba(0,0,0,.10);
+
+  --accent-rgb: 230 57 70;
+  --accent2-rgb: 255 143 171;
+}
+
+/* Improve readability in light theme */
+:root[data-theme="modern"] .header{
+  background: rgba(255,255,255,.78);
+}
+:root[data-theme="modern"] .nav a.active{
+  background: rgba(230,57,70,.10);
+}
+:root[data-theme="modern"] .button.secondary{
+  background: rgba(230,57,70,.08);
+}
