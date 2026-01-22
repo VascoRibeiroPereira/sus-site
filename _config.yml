@@ -1,0 +1,18 @@
+title: Sociedade União Sintrense
+description: Cultura, teatro e vida associativa em Sintra.
+lang: pt-PT
+
+# GitHub Pages compatible theme (easy to swap)
+theme: minima
+
+# Show these pages in the header (minima)
+header_pages:
+  - agenda/index.md
+  - oferta/index.md
+  - noticias-e-atividades/index.md
+  - teatro-uniao/index.md
+  - torne-se-socio/index.md
+  - contacte-nos/index.md
+
+# Keep pretty URLs (/pasta/)
+permalink: pretty
