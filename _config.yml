@@ -1,21 +1,19 @@
 title: Sociedade União Sintrense
-logo: /assets/img/logo.jpg
-description: Cultura, teatro e vida associativa em Sintra.
-lang: pt-PT
+description: Site oficial da Sociedade União Sintrense
+theme: just-the-docs
 
-# GitHub Pages compatible theme (easy to swap)
-remote_theme: pages-themes/merlot@v0.2.0
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+# IMPORTANT para project site:
+url: "https://vascoribeiropereira.github.io"
+baseurl: "/sus-site"
 
-# Show these pages in the header (minima)
-header_pages:
-  - agenda/index.md
-  - oferta/index.md
-  - noticias-e-atividades/index.md
-  - teatro-uniao/index.md
-  - torne-se-socio/index.md
-  - contacte-nos/index.md
+# Logo no header (Just the Docs usa isto)
+logo: "/assets/img/logo.png"
 
-# Keep pretty URLs (/pasta/)
-permalink: pretty
+# (Opcional) favicon
+favicon_ico: "/assets/img/favicon.ico"
+
+# Navegação
+nav_sort: case_insensitive
+
+# Search
+search_enabled: true
