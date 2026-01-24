@@ -1,10 +1,10 @@
----
----
-@import "{{ site.theme }}";
+// ---
+// ---
+// @import "{{ site.theme }}";
 
-/* Pequenos ajustes visuais (podes mexer à vontade) */
-:root {
-  --sus-accent: #b02a2a; /* vermelho "teatro" */
-}
-a { color: var(--sus-accent); }
-.site-title, .site-title:visited { color: var(--sus-accent); }
+// /* Pequenos ajustes visuais (podes mexer à vontade) */
+// :root {
+//   --sus-accent: #b02a2a; /* vermelho "teatro" */
+// }
+// a { color: var(--sus-accent); }
+// .site-title, .site-title:visited { color: var(--sus-accent); }
