@@ -4,7 +4,7 @@ lang: pt-PT
 
 # GitHub Pages compatible theme (easy to swap)
 theme: minima
-logo: /assets/img/logo.jpeg
+logo: /assets/img/logo.jpg
 
 # Show these pages in the header (minima)
 header_pages:
