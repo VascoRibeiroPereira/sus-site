@@ -1,7 +1,7 @@
 title: Sociedade União Sintrense
 description: Site oficial da Sociedade União Sintrense
 
-theme: jekyll-theme-midnight
+theme: minima
 
 url: "https://vascoribeiropereira.github.io"
 baseurl: "/sus-site"
