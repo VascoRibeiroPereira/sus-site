@@ -1,19 +1,10 @@
 title: Sociedade União Sintrense
 description: Site oficial da Sociedade União Sintrense
-theme: just-the-docs
 
-# IMPORTANT para project site:
+theme: jekyll-theme-midnight
+
 url: "https://vascoribeiropereira.github.io"
 baseurl: "/sus-site"
 
-# Logo no header (Just the Docs usa isto)
-logo: "/assets/img/logo.jpg"
-
-# (Opcional) favicon
-favicon_ico: "/assets/img/favicon.ico"
-
-# Navegação
-nav_sort: case_insensitive
-
-# Search
-search_enabled: true
+# opcional mas útil
+markdown: kramdown
