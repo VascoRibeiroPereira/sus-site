@@ -1,10 +1,10 @@
 title: Sociedade União Sintrense
+logo: /assets/img/logo.jpg
 description: Cultura, teatro e vida associativa em Sintra.
 lang: pt-PT
 
 # GitHub Pages compatible theme (easy to swap)
 theme: minima
-logo: /assets/img/logo.jpg
 
 # Show these pages in the header (minima)
 header_pages:
