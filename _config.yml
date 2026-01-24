@@ -1,5 +1,6 @@
 title: Sociedade União Sintrense
 description: Site oficial da Sociedade União Sintrense
+logo: /assets/img/logo.jpg
 
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
