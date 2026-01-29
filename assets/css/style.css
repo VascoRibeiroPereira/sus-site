@@ -1,4 +1,37 @@
 ---
 ---
 
-@import "jekyll-theme-minimal";
+@import "{{ site.theme }}";
+
+/* Base */
+body {
+  background-color: #f8f8f6;
+  color: #1c1c1c;
+}
+
+/* Links */
+a {
+  color: #4f5d2f;
+}
+
+a:hover {
+  color: #6b7d3a;
+  text-decoration: underline;
+}
+
+/* Títulos */
+h1, h2, h3 {
+  color: #4f5d2f;
+}
+
+/* Header e footer discretos */
+.site-header,
+.site-footer {
+  background-color: #ffffff;
+  border-color: #e6e6e3;
+}
+
+/* Linha subtil abaixo do header */
+.site-header {
+  border-bottom: 1px solid #e6e6e3;
+}
