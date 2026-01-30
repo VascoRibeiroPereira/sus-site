@@ -55,7 +55,3 @@ Aberto à comunidade e a todas as pessoas, o Teatro União é um espaço seguro,
 [Saiba Mais sobre o TU]()
 
 ***
-
-## Ligue-se a nós nas redes sociais
-
-[![FB](assets/img/facebook.png)](https://www.facebook.com/1760932104213237) | [![IG](assets/img/instagram.png)](https://www.instagram.com/teatrouniao/) | [![TikTok](assets/img/tiktok.png)](https://www.tiktok.com/@teatrouniao?lang=pt-BR) | [![Youtube](assets/img/youtube.png)](https://www.youtube.com/@teatrouniao3580)
