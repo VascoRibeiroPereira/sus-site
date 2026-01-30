@@ -27,9 +27,45 @@ a:hover { color:#6b7d3a; text-decoration: underline; }
   display: block;
 }
 
-/* FIX: prevenir colapso por floats (tema minimal usa floats no header/section) */
+/* 1) Evitar colapso de floats */
 .wrapper::after {
   content: "";
   display: table;
   clear: both;
+}
+
+/* 2) Garantir que o footer nunca entra por dentro */
+footer {
+  clear: both;
+}
+
+/* 3) Responsive: em ecrãs pequenos, empilhar header + section */
+@media (max-width: 900px) {
+  header,
+  section {
+    float: none !important;
+    width: auto !important;
+  }
+
+  header {
+    position: static !important;
+    padding-right: 0;
+    border-bottom: 1px solid #e6e6e3;
+    margin-bottom: 1.25rem;
+  }
+
+  section {
+    border: 0;
+    padding: 0;
+    margin: 0;
+  }
+
+  footer {
+    margin-top: 2rem;
+  }
+
+  /* opcional: ícones sociais não rebentarem */
+  .social-icons {
+    flex-wrap: wrap;
+  }
 }
