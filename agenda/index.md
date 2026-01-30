@@ -20,4 +20,4 @@ A agenda da União Sintrense é aberta, diversa e pensada para todas as pessoas.
   scrolling="no">
 </iframe>
 
-[Enviar email para reservar](mailto:sociedadeuniaosintrense@gmail.com)
+# [Enviar email para reservar](mailto:sociedadeuniaosintrense@gmail.com)
