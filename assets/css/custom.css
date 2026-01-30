@@ -34,3 +34,10 @@ footer {
 header {
   overflow: auto;
 }
+
+/* FIX: prevenir colapso por floats (tema minimal usa floats no header/section) */
+.wrapper::after {
+  content: "";
+  display: table;
+  clear: both;
+}
