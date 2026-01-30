@@ -20,7 +20,7 @@ Melhor ainda, venha visitar-nos pessoalmente! Adoramos receber os nossos sócios
   <div class="container">
       <div class="actions" style="margin-top:12px">
         <a class="btn primary" href="mailto:sociedadeuniaosintrense@gmail.com">Enviar email</a>
-        <a class="btn" href="https://www.google.com/maps/search/?api=1&query=R.+Maria+Eug%C3%A9nia+Reis+Ferreira+Navarro+N%C2%BA7+A,+2710-588+Sintra" target="_blank" rel="noopener">Get directions</a>
+        <a class="btn" href="https://www.google.com/maps/search/?api=1&query=R.+Maria+Eug%C3%A9nia+Reis+Ferreira+Navarro+N%C2%BA7+A,+2710-588+Sintra" target="_blank" rel="noopener">Mapa</a>
       </div>
   </div>
 </section>
