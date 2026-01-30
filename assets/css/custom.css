@@ -26,3 +26,11 @@ a:hover { color:#6b7d3a; text-decoration: underline; }
   height: 28px;
   display: block;
 }
+
+footer {
+  clear: both;
+}
+
+header {
+  overflow: auto;
+}
