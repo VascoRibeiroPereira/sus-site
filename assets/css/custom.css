@@ -26,3 +26,20 @@ a:hover { color:#6b7d3a; text-decoration: underline; }
   height: 28px;
   display: block;
 }
+
+.social-links {
+  margin-top: 1.25rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e6e6e3;
+}
+
+.site-meta {
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid #e6e6e3;
+  font-size: 0.9rem;
+}
+
+.site-meta p {
+  margin: 0.35rem 0;
+}
