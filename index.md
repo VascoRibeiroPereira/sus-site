@@ -37,7 +37,9 @@ A Noite das Camélias é, desde 1940, uma das noites de gala mais emblemáticas 
 
 ### Concurso de Arranjos de Camélias 2026
 
-[Contrato]() | [Ficha de Inscrição]() | [Email para envio]()
+![concurso](assets/img/camelias_concurso.jpg)
+
+[Contrato](downloads/2026_cam_contr.pdf) | [Ficha de Inscrição](downloads/2026_cam_inscr.pdf) | [Email para envio](mailto:sociedadeuniaosintrense@gmail.com)
 
 
 ## Teatro União
