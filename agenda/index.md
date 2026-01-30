@@ -3,15 +3,11 @@ layout: default
 title: "Agenda"
 ---
 
-<div class="sus-content">
-<section class="section">
-  <div class="container">
-    <div class="card" style="padding:20px">
-      <div class="kicker">Sociedade União Sintrense</div>
-      <h1 style="font-size:30px">Eventos</h1>
-      <p>Página pronta para ser preenchida com eventos.</p><p>Se quiseres, posso deixar-te um ficheiro JSON/YAML de eventos e renderizar aqui via JavaScript (continua a ser 100% estático).</p>
-      
-    </div>
-  </div>
-</section>
-</div>
+<iframe
+  src="https://calendar.google.com/calendar/embed?src=c550814afb82a67d4b992686feb680c19e10b50d60df2e207fda26b251f87599%40group.calendar.google.com&ctz=Europe%2FLisbon"
+  style="border:0"
+  width="100%"
+  height="700"
+  frameborder="0"
+  scrolling="no">
+</iframe>
