@@ -71,6 +71,13 @@
       <img src="{{ '/assets/img/youtube.png' | relative_url }}" alt="YouTube">
     </a>
   </div>
+
+           {% if site.github.is_project_page %}
+    <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+  {% endif %}
+
+  <p><small>Hosted on GitHub Pages</small></p>
+          
 </div>
 
         
@@ -80,11 +87,6 @@
       {{ content }}
 
       </section>
-        {% if site.github.is_project_page %}
-    <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-  {% endif %}
-
-  <p><small>Hosted on GitHub Pages</small></p>
 <footer>
 </footer>
       
