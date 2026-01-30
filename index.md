@@ -21,10 +21,14 @@ Fiel às suas raízes, mas atenta ao presente e ao futuro, a União Sintrense co
 O envio de donativos por parte dos sócios pode ser efetuado presencialmente ou por transferência bancária:
 
 Nome: SOCIEDADE UNIÃO SINTRENSE
+
 IBAN: PT50 0036 0050 99100010730 69
+
 BIC/SWIFT: MPIOPTPL
 
 O seu donativo reverte integralmente a favor da cultura em Sintra! 
+
+[Email para envio de comprovativo](mailto:sociedadeuniaosintrense@gmail.com)
 
 ***
 
@@ -51,3 +55,7 @@ Aberto à comunidade e a todas as pessoas, o Teatro União é um espaço seguro,
 [Saiba Mais sobre o TU]()
 
 ***
+
+## Ligue-se a nós nas redes sociais
+
+[![FB](assets/img/facebook.png)](https://www.facebook.com/1760932104213237) | [![IG](assets/img/instagram.png)](https://www.instagram.com/teatrouniao/) | [![TikTok](assets/img/tiktok.png)](https://www.tiktok.com/@teatrouniao?lang=pt-BR) | [![Youtube](assets/img/youtube.png)](https://www.youtube.com/@teatrouniao3580)
