@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Contacte-nos"
+title: "Contactos"
 ---
 
 <div class="sus-content">
