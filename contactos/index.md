@@ -5,7 +5,7 @@ title: "Contactos"
 
 Sociedade União Sintrense
 
-#Contacte-nos
+# Contacte-nos
 
 Melhor ainda, venha visitar-nos pessoalmente! Adoramos receber os nossos sócios e amigos, pelo que poderá visitar-nos quando quiser em horário a combinar.
 
