@@ -27,45 +27,51 @@ a:hover { color:#6b7d3a; text-decoration: underline; }
   display: block;
 }
 
-/* 1) Evitar colapso de floats */
-.wrapper::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* 2) Garantir que o footer nunca entra por dentro */
-footer {
-  clear: both;
-}
-
-/* 3) Responsive: em ecrãs pequenos, empilhar header + section */
+/* --- MOBILE: sidebar com scroll próprio ("slider vertical") --- */
 @media (max-width: 900px) {
+
+  /* 1) Mata o layout antigo por floats (senão nada disto fica estável) */
   header,
-  section {
+  section,
+  footer {
     float: none !important;
     width: auto !important;
-  }
-
-  header {
     position: static !important;
-    padding-right: 0;
+  }
+
+  /* 2) Sidebar/HEADER vira um "painel" com altura limitada + scroll */
+  header {
+    max-height: 55vh;          /* ajusta: 45vh / 60vh conforme preferires */
+    overflow-y: auto;          /* isto é o "slider vertical" */
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
     border-bottom: 1px solid #e6e6e3;
-    margin-bottom: 1.25rem;
   }
 
+  /* 3) Conteúdo fica abaixo, sem invasões */
   section {
-    border: 0;
-    padding: 0;
-    margin: 0;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 
+  /* 4) Footer fica no fim, fora do painel */
   footer {
+    clear: both;
     margin-top: 2rem;
   }
 
-  /* opcional: ícones sociais não rebentarem */
+  /* 5) Ícones não rebentarem a linha */
   .social-icons {
+    display: flex;
     flex-wrap: wrap;
+    gap: 0.6rem;
+    align-items: center;
+  }
+
+  .social-icons img {
+    width: 28px;
+    height: 28px;
+    display: block;
   }
 }
