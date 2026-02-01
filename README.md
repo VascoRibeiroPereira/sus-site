@@ -27,17 +27,29 @@ O site é totalmente estático, leve e sem dependências de backend.
 
 .
 ├── _layouts/ # Layouts base (override do tema)
+
 ├── _includes/ # Componentes reutilizáveis (head, etc.)
+
 ├── assets/
+
 │ ├── css/ # CSS personalizado
+
 │ ├── img/ # Imagens e ícones
+
 │ └── js/ # Scripts auxiliares
+
 ├── agenda/ # Página Agenda
+
 ├── teatro-uniao/ # Página Teatro União
+
 ├── torne-se-socio/ # Página Torne-se Sócio
+
 ├── contacte-nos/ # Página de contactos
+
 ├── _config.yml # Configuração do Jekyll
+
 └── index.md # Página inicial
+
 
 ---
 
