@@ -54,6 +54,6 @@ Aberto à comunidade e a todas as pessoas, o Teatro União é um espaço seguro,
 
 ![TU](assets/img/TU.jpg)
 
-[Saiba Mais sobre o TU](teatro-uniao/index.md)
+[Saiba Mais sobre o TU](teatro-uniao/index.md) | [Blog do Teatro União](https://teatrouniao-sus.blogspot.com/)
 
 ***
