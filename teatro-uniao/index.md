@@ -19,4 +19,4 @@ Mais do que uma companhia, o Teatro União é um projeto coletivo, onde o “TU�
 
 Entre peças em cena e novas estreias, o Teatro União mantém o palco vivo e em constante movimento.
 
-Acompanhe os espetáculos atuais e os que estão a chegar através da [Agenda](../agenda/index.md).
+Acompanhe os espetáculos atuais e os que estão a chegar através da [Agenda](../agenda/index.md) e veja as nossas novidades no [Blog do Teatro União](https://teatrouniao-sus.blogspot.com/).
