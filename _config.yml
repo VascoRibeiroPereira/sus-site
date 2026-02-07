@@ -9,8 +9,8 @@ theme: jekyll-theme-minimal
 #plugins:
 #- jekyll-remote-theme # add this line to the plugins list if you already have one
 
-url: "https://vascoribeiropereira.github.io"
-baseurl: "/sus-site"
+url: "https://sociedadeuniaosintrense.pt/"
+#baseurl: "/sus-site"
 
 # opcional mas útil
 markdown: kramdown
